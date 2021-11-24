@@ -21,7 +21,7 @@ var x = setInterval(function() {
     clearInterval(x);
     counter.innerHTML = "لقد وصلت متأخراً ";
     buttonWin.style.display = "block";
-    
+ 
   }
 }, 1000);
 const buttonWin = document.querySelector("#buttonWin");

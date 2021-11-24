@@ -63,6 +63,8 @@ include "./inc/db_close.php";
         </div>
 
 
+
+</div>
 <div id ="loader-con">
     <div id="loader">
         <canvas id="circularLoader" width="200" height="200"></canvas>

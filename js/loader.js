@@ -22,6 +22,7 @@ function progressSim(){
 	    // Add scripting here that will run when progress completes
 			myModal.show();
 			loader.style.display = "none";
+			
 	}
 	al++;
 }
@@ -43,6 +44,7 @@ winner.addEventListener('click',function(){
  
 loader.style.display = "block";
 sim = setInterval(progressSim, 60);
+
 /*
  setTimeout(function(){
   myModal.show();
